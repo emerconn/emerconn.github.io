@@ -114,27 +114,39 @@ body {
     padding-left: 140px;
     color: var(--white-color);
 }
-.main-container h1 {
+.about-title {
+    height: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-title h1 {
     font-size: 10rem;
     text-align: center;
 }
-.main-title {
-    height: 50%;
+.about-desc {
+    height: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-desc p {
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.about-icons {
+    height: calc(100% / 3);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icons {
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icons a {
+.about-icons a {
     color: var(--white-color);
     text-decoration: none;
 }
-.icons a:hover .icon, a:active .icon {
+.about-icons a:hover .icon, a:active .icon {
     font-size: 9rem;
 }
 .icon {
@@ -150,20 +162,62 @@ body {
 .portfolio-divider {
     width: 50%;
     height: 100%;
-    padding: 3rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: inline;
 }
 .portfolio-divider:first-of-type {
     border-right: 1px solid var(--white-color);
 }
 .portfolio-divider h2 {
-    font-size: 4rem;
+    font-size: 5rem;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.portfolio-item p {
+.portfolio-divider p {
     font-size: 2rem;
+}
+.divider-grid {
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    padding: 0 2rem 2rem;
+}
+.portfolio-item {
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    border: 1px solid var(--white-color)
+}
+.portfolio-item h3 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+.champion {
+    background: url("champion_snorkeling.jpg") center;
+    background-size: contain;
+    border-radius: 10px;
+    border: 0;
+}
+.champion h3 {
+    text-shadow:
+    -1px -1px 0px var(--dary-grey-color),
+    -1px 1px 0px var(--dary-grey-color),
+    1px -1px 0px var(--dary-grey-color),
+    1px 1px 0px var(--dary-grey-color);
+}
+.champion a {
+    font-size: 2rem;
+    color: var(--white-color);
+    text-shadow:
+    -1px -1px 0px var(--light-grey-color),
+    -1px 1px 0px var(--light-grey-color),
+    1px -1px 0px var(--light-grey-color),
+    1px 1px 0px var(--light-grey-color);
 }
 #contact {
     display: grid;
