@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Emer Conghaile">
     <meta property="og:description" content="Cybersecurity Student & Web Developer">
-    <meta property="og:image" content="headshot.jpeg">
+    <meta property="og:image" content="https://github.com/emerconghaile/emerconghaile.github.io/blob/main/headshot.jpeg?raw=true">
     
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -20,10 +20,10 @@
     <meta property="twitter:url" content="https://emerconghaile.github.io/">
     <meta name="twitter:title" content="Emer Conghaile">
     <meta name="twitter:description" content="Cybersecurity Student & Web Developer">
-    <meta name="twitter:image" content="headshot.jpeg">
+    <meta name="twitter:image" content="https://github.com/emerconghaile/emerconghaile.github.io/blob/main/headshot.jpeg?raw=true">
 
     <link href="main.css" rel="stylesheet">
-    <style></style>
+    <link href="mobile.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/af5410f08d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -47,6 +47,7 @@
             <div class="about-desc">
                 <p>Cybersecurity Student at Madison College</p>
                 <p>Self-taught Programmer & Web Developer</p>
+                <p>Kicker of Ass and Starter of Self</p>
                 <p>Entertaining new employment</p>
             </div>
             <div class="about-icons">
@@ -77,10 +78,12 @@
             <div class="portfolio-divider websites">
                 <h2>Websites</h2>
                 <div class="divider-grid">
-                    <div class="portfolio-item champion">
-                        <h3>Champion Snorkeling</h3>
-                        <a href="https://championsnorkel.com/" target="_blank" rel="noopener noreferrer">championsnorkeling.com</a>
-                    </div>
+                    <a class="portfolio-item has-item champion" href="https://championsnorkel.com/" target="_blank" rel="noopener noreferrer">
+                        <div>
+                            <h3>Champion Snorkeling</h3>
+                            <p>championsnorkeling.com</p>
+                        </div>
+                    </a>
                     <div class="portfolio-item">
                         <h3>Coming soon.</h3>
                     </div>
@@ -98,11 +101,5 @@
                 <p>Work in progress.</p>
         </section>
     </main>
-    <script>
-        $(".portfolio-item").click(function() {
-            window.location = $(this).find("a").attr("href"); 
-            return false;
-        });
-    </script>
 </body>
 </html>
