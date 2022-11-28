@@ -4,13 +4,13 @@ Secured & cached by CloudFlare.
 Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
 
 ### load theme locally
-- install `ruby` and `bundle`
+- install `ruby` and `bundler`
 - clone this repo
 - run `bundle install`
 - run `bundle exec jekyll serve` and open the provided URL
 
 ##### personal notes for goldfish brain:
-- install `ruby-full` and the `bundle` gem
+- install `ruby-full` and the `bundler` gem
 - create a Jekyll scaffold with Bundle
   - https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
 - add "Minimal Mistakes" as a remote theme
