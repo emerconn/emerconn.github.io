@@ -3,7 +3,7 @@
 
 
 
-### personal notes for golfish brain:
+##### personal notes for goldfish brain:
 - install `ruby-full` and the `bundle` gem
 - create a Jekyll scaffold with Bundle
   - https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
