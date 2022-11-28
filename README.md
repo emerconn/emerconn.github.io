@@ -1,5 +1,7 @@
 # [emerconnelly.com](https://emerconnelly.com)
-Hosted by GitHub Pages. CDN & HTTPS by CloudFlare. Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
+Hosted by GitHub Pages.
+Secured & cached by CloudFlare.
+Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
 
 
 
