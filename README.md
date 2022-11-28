@@ -2,7 +2,7 @@
 
 notes for myself because i have goldfish brain:
  
-install ruby-full and Bundle gem
+install ruby-full and the Bundle gem
 
 steps to create jekyll scaffold
 -- https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
