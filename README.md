@@ -7,7 +7,7 @@ Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.c
 - install `ruby` and `bundle`
 - clone this repo
 - run `bundle install`
-- run `bundle exec jekyll server` and open the provided URL
+- run `bundle exec jekyll serve`, then open the provided URL
 
 ##### personal notes for goldfish brain:
 - install `ruby-full` and the `bundle` gem
