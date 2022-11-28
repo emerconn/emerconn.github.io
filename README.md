@@ -11,5 +11,7 @@ Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.c
   - https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
 - add "Minimal Mistakes" as a remote theme
   - https://github.com/mmistakes/minimal-mistakes
+- even more Minimal Mistakes steps
+  - https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 - official GitHub docs (supplementary)
   - https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
