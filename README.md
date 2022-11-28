@@ -1,6 +1,9 @@
-# emerconghaile.github.io
+# www.emerconnelly.com
 
-notes for myself because i have goldfish brain:
+
+
+
+personal notes for golfish brain:
  
 install ruby-full and the Bundle gem
 
