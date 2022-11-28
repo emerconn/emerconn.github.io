@@ -3,7 +3,11 @@ Hosted by GitHub Pages.
 Secured & cached by CloudFlare.
 Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
 
-
+### load theme locally
+- install `ruby` and `bundle`
+- clone this repo
+- run `bundle install`
+- run `bundle exec jekyll server` and open the provided URL
 
 ##### personal notes for goldfish brain:
 - install `ruby-full` and the `bundle` gem
