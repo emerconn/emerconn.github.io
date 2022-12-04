@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 toc: true
 title:  "Create & manage RouterOS network infrastructure using Terraform"
 date:   2022-11-27 00:00:00 -0600
@@ -337,7 +338,7 @@ More reading on Terraform's `format` function can be found [here](https://develo
 
 With our `main.tf` file crafted, we can now move on to creating our infrastructure.
 
-**Note:** Find our full `main.tf` example file [here]().
+**Note:** Find our full `main.tf` example file [here](https://raw.githubusercontent.com/emerconghaile/emerconghaile.github.io/ee2387275ab124ea40de0cee3b47f6393f7b888f/assets/code-examples/2022-12-4-terraform-create-manage-routeros-network-infrastructure/main.tf).
 {: .notice--info}
 
 The next step, as a best practice, is to to run `terraform plan`.

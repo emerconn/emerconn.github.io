@@ -20,7 +20,7 @@ title                    : "Emer Connelly"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Emer Connelly"
-description              : "An amazing website."
+description              : "The official personal website for Emer Connnelly"
 url                      : "https://emerconnelly.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "emerconghaile/emerconghaile.github.io"
@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Emer Connelly"
   avatar           : "/assets/images/bio-photo.webp"
-  bio              : "Cybersecurity & DevOps"
+  bio              : "SysAdmin, DevOps & Cybersecurity"
   location         : "Midwest, USA"
   email            : "me@emerconnelly.com"
   links:
