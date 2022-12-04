@@ -43,7 +43,7 @@ resource "routeros_ip_dhcp_server" "dhcpServer-vlan71-smartDevices" {
   interface    = routersos_interface_vlan.vlan-vlan71-smartDevices.name
   name         = routersos_interface_vlan.vlan-vlan71-smartDevices.name
 }
-# Router
+# Route
 resource "routeros_ip_route" "route-vlan71-smartDevices" {
   dst_address = "10.71.0.0/24"
   gateway     = format("%%%s", routersos_interface_vlan.vlan-vlan71-smartDevices.name)

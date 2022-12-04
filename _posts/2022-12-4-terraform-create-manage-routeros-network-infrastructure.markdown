@@ -199,7 +199,7 @@ More reading can be found [here](https://developer.hashicorp.com/terraform/tutor
 
 With our working environment and provider ready to go, we can begin creating our new network.
 
-**Note:** The full `main.tf` example file is found [here](https://raw.githubusercontent.com/emerconghaile/emerconghaile.github.io/ee2387275ab124ea40de0cee3b47f6393f7b888f/assets/code-examples/2022-12-4-terraform-create-manage-routeros-network-infrastructure/main.tf).
+**Note:** The full `main.tf` example file is found [here](https://raw.githubusercontent.com/emerconghaile/emerconghaile.github.io/main/assets/code-examples/2022-12-4-terraform-create-manage-routeros-network-infrastructure/main.tf).
 {: .notice--info}
 
 ### Required resources
@@ -321,7 +321,7 @@ Notice we use a new Terraform function, called `format`.
 This function can concatenate strings, among other things.
 
 ```terraform
-# Router
+# Route
 resource "routeros_ip_route" "route-vlan71-smartDevices" {
   dst_address = "10.71.0.0/24"
   gateway     = format("%%%s", routersos_interface_vlan.vlan-vlan71-smartDevices.name)
