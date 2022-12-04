@@ -1,6 +1,7 @@
+# [emerconnelly.com](https://emerconnelly.com)
+
 ![](https://github.com/emerconghaile/emerconghaile.github.io/actions/workflows/purge-cloudflare-cache.yml/badge.svg)
 
-# [emerconnelly.com](https://emerconnelly.com)
 Hosted by GitHub Pages.
 Secured & cached by CloudFlare.
 Powered by [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
