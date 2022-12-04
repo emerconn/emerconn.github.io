@@ -199,6 +199,9 @@ More reading can be found [here](https://developer.hashicorp.com/terraform/tutor
 
 With our working environment and provider ready to go, we can begin creating our new network.
 
+**Note:** The full `main.tf` example file is found [here](https://raw.githubusercontent.com/emerconghaile/emerconghaile.github.io/ee2387275ab124ea40de0cee3b47f6393f7b888f/assets/code-examples/2022-12-4-terraform-create-manage-routeros-network-infrastructure/main.tf).
+{: .notice--info}
+
 ### Required resources
 
 For this example, my subnet will be utilized by a VLAN interface.
@@ -244,7 +247,7 @@ Append the following to `main.tf`.
 # Address / Subnet
 resource "routeros_ip_address" "address-vlan71-smartDevices" {
   address   = "10.0.71.1/24"
-  interface = routersos_interface_vlan.vlan-vlan71-smartDevices
+  interface = routersos_interface_vlan.vlan-vlan71-smartDevices.name
   network   = "10.0.71.0"
 }
 ```
@@ -264,7 +267,7 @@ Append the following to `main.tf`.
 ```terraform
 # Pool (optional)
 resource "routeros_ip_pool" "pool-vlan71-smartDevices" {
-  name   = routersos_interface_vlan.vlan-vlan71-smartDevices
+  name   = routersos_interface_vlan.vlan-vlan71-smartDevices.name
   ranges = "10.0.71.100-10.0.71.200"
 }
 ```
@@ -301,9 +304,9 @@ Append the following to `main.tf`.
 ```terraform
 # DHCP server (optional)
 resource "routeros_ip_dhcp_server" "dhcpServer-vlan71-smartDevices" {
-  address_pool = routersos_interface_vlan.vlan-vlan71-smartDevices
-  interface    = routersos_interface_vlan.vlan-vlan71-smartDevices
-  name         = routersos_interface_vlan.vlan-vlan71-smartDevices
+  address_pool = routersos_interface_vlan.vlan-vlan71-smartDevices.name
+  interface    = routersos_interface_vlan.vlan-vlan71-smartDevices.name
+  name         = routersos_interface_vlan.vlan-vlan71-smartDevices.name
 }
 ```
 
@@ -321,7 +324,7 @@ This function can concatenate strings, among other things.
 # Router
 resource "routeros_ip_route" "route-vlan71-smartDevices" {
   dst_address = "10.71.0.0/24"
-  gateway     = format("%%%s", routersos_interface_vlan.vlan-vlan71-smartDevices)
+  gateway     = format("%%%s", routersos_interface_vlan.vlan-vlan71-smartDevices.name)
 }
 ```
 
@@ -337,9 +340,6 @@ More reading on Terraform's `format` function can be found [here](https://develo
 ### Creation
 
 With our `main.tf` file crafted, we can now move on to creating our infrastructure.
-
-**Note:** Find our full `main.tf` example file [here](https://raw.githubusercontent.com/emerconghaile/emerconghaile.github.io/ee2387275ab124ea40de0cee3b47f6393f7b888f/assets/code-examples/2022-12-4-terraform-create-manage-routeros-network-infrastructure/main.tf).
-{: .notice--info}
 
 The next step, as a best practice, is to to run `terraform plan`.
 This command will show us what actions Terraform plans to take.
