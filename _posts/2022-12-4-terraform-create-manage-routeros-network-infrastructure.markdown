@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 toc: true
-title:  "Create & manage RouterOS network infrastructure using Terraform"
+title:  "Create & manage RouterOS network infrastructure using IaaS with Terraform"
 date:   2022-11-27 00:00:00 -0600
 categories: mikrotik routeros terraform
 ---
@@ -167,7 +167,7 @@ Terraform has been successfully initialized!
 Notice the newly create directory and files.
 These are automatically created upon initialization.
 
-##### Explore `.terraform.lock.hcl` & 
+##### Explore `.terraform.lock.hcl`
 
 Terraform uses the lock file to know which provider versions to use.
 Instead of automatically using the newest version, Terraform will use what is specified in the lock file.
