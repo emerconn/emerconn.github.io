@@ -7,7 +7,7 @@ date:   2022-11-27 00:00:00 -0600
 categories: mikrotik routeros terraform
 ---
 
-This post covers how to create & manage networking infrastructure in RouterOS using Terraform.
+This post covers how to create & manage networking infrastructure in RouterOS using IaaS with Terraform.
 
 P.S. Welcome to my first blog post -- feedback is appreciated!
 
