@@ -1,3 +1,5 @@
+![](https://github.com/emerconghaile/emerconghaile.github.io/actions/workflows/purge-cloudflare-cache.yml/badge.svg)
+
 # [emerconnelly.com](https://emerconnelly.com)
 Hosted by GitHub Pages.
 Secured & cached by CloudFlare.
