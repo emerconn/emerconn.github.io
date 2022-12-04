@@ -1,4 +1,4 @@
-name: purge cloudflare cache
+name: purge-cloudflare-cache
 on:
   page_build
 
