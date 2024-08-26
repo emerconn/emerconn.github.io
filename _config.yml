@@ -133,6 +133,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/emerconnelly"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/emerconnelly/"
   # - label: "Facebook"
     # icon: "fab fa-fw fa-facebook-square"
     # url:
@@ -145,7 +148,6 @@ footer:
   # - label: "Instagram"
     # icon: "fab fa-fw fa-instagram"
     # url:
-
 
 # Reading Files
 include:
