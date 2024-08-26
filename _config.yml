@@ -6,13 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme         : "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -91,25 +88,24 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : "Person"
-  name                   : "Emerson Connelly"
+  type: "Person"
+  name: "Emerson Connelly"
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider      : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
+    tracking_id :
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name             : "Emerson Connelly"
-  avatar           : "/assets/images/bio-photo.webp"
-  bio              : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
-  location         : "Midwest, USA"
-  email            : "contact@emerconnelly.com"
+  name     : "Emerson Connelly"
+  avatar   : "/assets/images/bio-photo.webp"
+  bio      : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
+  location : "Midwest, USA"
+  email    : "contact@emerconnelly.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -117,15 +113,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/emerconnelly/"
-  # - label: "Website"
-    # icon: "fas fa-fw fa-link"
-    # url: "https://your-website.com"
-  # - label: "Facebook"
-    # icon: "fab fa-fw fa-facebook-square"
-    # url: "https://facebook.com/"
-  # - label: "Instagram"
-    # icon: "fab fa-fw fa-instagram"
-    # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -136,18 +123,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/emerconnelly/"
-  # - label: "Facebook"
-    # icon: "fab fa-fw fa-facebook-square"
-    # url:
-  # - label: "GitLab"
-    # icon: "fab fa-fw fa-gitlab"
-     # url:
-  # - label: "Bitbucket"
-    # icon: "fab fa-fw fa-bitbucket"
-    # url:
-  # - label: "Instagram"
-    # icon: "fab fa-fw fa-instagram"
-    # url:
 
 # Reading Files
 include:
@@ -186,14 +161,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -206,19 +179,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -235,7 +205,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -265,14 +234,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
