@@ -1,6 +1,8 @@
 name: purge-cloudflare-cache
 on:
-  page_build
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types: [completed]
 
 jobs:
   purge_cloudflare_cache:
