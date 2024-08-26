@@ -20,7 +20,7 @@ title                    : "Emerson Connelly"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Emerson Connelly"
-description              : "The official personal website for Emerson Connelly"
+description              : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
 url                      : "https://emerconnelly.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "emerconnelly/emerconghaile.github.io"
