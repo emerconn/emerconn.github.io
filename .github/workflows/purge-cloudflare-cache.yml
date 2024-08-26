@@ -7,7 +7,7 @@ on:
 jobs:
   purge_cloudflare_cache:
     environment: cloudflare
-    name: purge-cloudflare-cache
+    name: purge Cloudflare cache
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -20,7 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip wheel
           pip install requests
-      - name: Purge CloudFlare cache
+      - name: Purge Cloudflare cache
         run: python purge-cloudflare-cache.py
         env:
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
