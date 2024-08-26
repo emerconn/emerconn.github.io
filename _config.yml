@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Emer Connelly"
+title                    : "Emerson Connelly"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Emer Connelly"
+name                     : "Emerson Connelly"
 description              : "The official personal website for Emer Connnelly"
 url                      : "https://emerconnelly.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -92,7 +92,7 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
-  name                   : "Emer Connelly"
+  name                   : "Emerson Connelly"
   links: # An array of links to social media profiles
 
 # Analytics
@@ -105,7 +105,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Emer Connelly"
+  name             : "Emerson Connelly"
   avatar           : "/assets/images/bio-photo.webp"
   bio              : "SysAdmin, DevOps & Cybersecurity"
   location         : "Midwest, USA"
