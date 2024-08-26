@@ -1,13 +1,14 @@
 name: purge-cloudflare-cache
+run-name: purge Cloudflare cache
 on:
   workflow_run:
     workflows: [pages-build-deployment]
     types: [completed]
 
 jobs:
-  purge_cloudflare_cache:
+  purge-cloudflare-cache:
     environment: cloudflare
-    name: purge Cloudflare cache
+    name: purge-cloudflare-cache
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
