@@ -20,7 +20,7 @@ title                    : "Emerson Connelly"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Emerson Connelly"
-description              : "The official personal website for Emer Connnelly"
+description              : "The official personal website for Emerson Connelly"
 url                      : "https://emerconnelly.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "emerconnelly/emerconghaile.github.io"
@@ -107,16 +107,13 @@ analytics:
 author:
   name             : "Emerson Connelly"
   avatar           : "/assets/images/bio-photo.webp"
-  bio              : "SysAdmin, DevOps & Cybersecurity"
+  bio              : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
   location         : "Midwest, USA"
-  email            : "me@emerconnelly.com"
+  email            : "contact@emerconnelly.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/emerconnelly/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/emerconghaile"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/emerconnelly"
@@ -133,9 +130,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/emerconghaile"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/emerconnelly"
