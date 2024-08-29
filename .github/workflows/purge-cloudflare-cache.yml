@@ -1,5 +1,4 @@
 name: purge-cloudflare-cache
-run-name: purge Cloudflare cache
 on:
   workflow_run:
     workflows: [pages-build-deployment]
