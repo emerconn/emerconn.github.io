@@ -5,6 +5,10 @@ on:
     workflows: [pages-build-deployment]
     types: [completed]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   purge-cloudflare-cache:
     environment: cloudflare
