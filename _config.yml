@@ -20,7 +20,7 @@ name                     : "Emerson Connelly"
 description              : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
 url                      : "https://emerconnelly.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "emerconnelly/emerconghaile.github.io"
+repository               : "emerconn/emerconn.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/emer-connelly-logo-dark-609.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -79,7 +79,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "emerconghaile"
+  username               : "emerconn"
 facebook:
   username               :
   app_id                 :
@@ -109,20 +109,20 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/emerconnelly"
+      url: "https://github.com/emerconn/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/emerconnelly/"
+      url: "https://www.linkedin.com/in/emerconn/"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/emerconnelly"
+      url: "https://github.com/emerconn/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/emerconnelly/"
+      url: "https://www.linkedin.com/in/emerconn/"
 
 # Reading Files
 include:
