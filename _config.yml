@@ -18,7 +18,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Emerson Connelly"
 description              : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
-url                      : "https://emerconnelly.com"
+url                      : "https://emerconn.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "emerconn/emerconn.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -105,7 +105,7 @@ author:
   avatar   : "/assets/images/bio-photo.webp"
   bio      : "DevOps, Cloud, & Platform Engineer. Kubernetes, Azure, & Terraform SME."
   location : "Midwest, USA"
-  email    : "contact@emerconnelly.com"
+  email    : "contact@emerconn.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
